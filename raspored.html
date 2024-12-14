@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon"  href="/images/logo-stranice.jpg">
+	<title>Ns021</title>
+</head>
+<body class="raspored">
+	<div class="nav">
+<ul class="nav">
+
+	<li> <a href="index.html"> Home </a></li>
+	<li><a href="clanovi.html"> Clanovi tima</a></li>
+	<li><a href="galerija.html"> Galerija </a></li>
+	<li><a href="kontakt.html"> Kontakt </a></li>
+	<li><a href="#"> Raspored termina </a></li>
+</ul>
+</div>
+<h1>Raspored termina</h1>
+
+<table border="1">
+	<tr>
+		<td>Vreme</td>
+		<td>Ponedeljak</td>
+		<td>Utorak</td>
+		<td>Sreda</td>
+		<td>Cetvrtak</td>
+		<td>Petak</td>
+		<td>Subota</td>
+		<td>Nedelja</td>
+	</tr>
+	<tr>
+		<td>09:00-11:00</td>
+		<td>Pistolji i snajperi</td>
+		<td>Dozvoljeno sve</td>
+		<td>Puske i nozevi</td>
+		<td align="center"> /</td>
+		<td>Samo pistolji</td>
+		<td rowspan="2">Samo puske</td>
+		<td align="center"> / </td>
+	</tr>
+	<tr><td>12:00-14:30</td>
+		<td> Dozvoljeno sve</td>
+		<td align="center">/</td>
+		<td>Dozvoljeno sve</td>
+		<td rowspan="2">Samo pistolji</td>
+		<td>Samo puske</td>
+		
+		<td align="center"> / </td></tr>
+	<tr><td>15:00-17:00</td>
+		<td>Dozvoljeno sve</td>
+		<td>Samo puske</td>
+		<td align="center">/</td>
+		<td>Samo pistolji</td>
+		<td rowspan="2">Dozvoljeno sve</td>
+		
+		
+	</table>
+<form>
+	<h2>Rezervišite svoj tim za termin</h2>
+	<p>Ime:</p>
+<input type="text" required>
+<p>Prezime:</p>
+<input type="text" required>
+<p>Ime ekipe:</p>
+<input type="text" required>
+<p>Kontakt telefon</p>
+<input type="tel" placeholder="+381" required minlength="8"> <br> 
+<p>Molimo vas čekirajte svoj pol</p>
+<input type="radio" name="Pol" required> Muški <br>
+<input type="radio" name="Pol"> Ženski
+<p>Koje vreme vam odgovara</p>
+<input type="checkbox" name="Vreme" > 9:30-11:00
+<input type="checkbox" name="Vreme" > 11:30-13:00 <br>
+<input type="checkbox" name="Vreme" > 15:00-16:30
+
+
+ <br> <br>
+<button type="submit">Potvrdi rezervaciju</button>
+
+</form>
+
+</body>
+</html>

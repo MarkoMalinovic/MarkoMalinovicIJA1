@@ -1,0 +1,136 @@
+body{
+    background-color: slategray;
+}
+p{font-size: 20px;
+color: black;}
+.nav{
+    background-color: seagreen;
+    width: 60%;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav ul{
+    text-align: center;
+}
+.nav li{
+
+    display: inline-block;
+    margin: 5px 12px;
+    border: solid 3px seashell;
+    padding: 10px;
+    border-radius: 30px;
+
+}
+.nav a{
+    color: aqua;
+    text-decoration: none;
+}
+.nav a:active{
+    color: beige;
+}
+.nav li:hover{
+    background-color: orange;
+    transition-duration: 0.8s;
+}
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{color: aliceblue;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+h3{font-family: Georgia, 'Times New Roman', Times, serif;}
+.clanovi{
+    background-color: sandybrown ;
+   text-align: center;
+}
+.clanovi h1:hover{
+    color: skyblue;
+    transition-duration: 1s;
+}
+.clanovi h3{color: blanchedalmond;}
+.clanovi img:hover{
+    width: 30%;
+    height: 30%;
+    transition-duration: 0.5s;
+}
+.galerija{background-color: beige;  
+}
+.galerija h1{
+    color: darkolivegreen;
+}
+input[type=text] {
+    width: 130px;
+    border: 3px solid bisque;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=text]:focus {
+    width: 30%;
+  }
+  
+  input[type=email] {
+    width: 230px;
+    border: 3px solid bisque;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=email]:focus {
+    width: 30%;
+  }
+  input[type=tel] {
+    width: 230px;
+    border: 3px solid bisque;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=tel]:focus {
+    width: 30%;
+  }
+  textarea{
+    color: navy; }
+  .kontakt p{
+    color: orangered;
+  }
+  button{font-size: 24px;
+background-color: red;}
+button:hover{width: 120px;}
+button:active{background-color: aliceblue;
+color: red;}
+tr, td{
+    text-align: center;
+    color: antiquewhite;
+    border: 2px solid seagreen;
+}
+.raspored{
+        text-align: center;
+}
+.raspored table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.raspored button{background-color: aquamarine;}
+.raspored button:hover{
+    background-color: antiquewhite;
+    width: 20%;
+    color: cadetblue;
+}
